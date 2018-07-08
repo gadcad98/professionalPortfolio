@@ -104,6 +104,7 @@ img {
     align-items: center;
     justify-items: center;
     box-shadow: var(--shadow);
+    font-size: 1.1rem;
     padding: 1.5rem;
 }
 
