@@ -108,10 +108,25 @@ img {
     padding: 1.5rem;
 }
 
-.top-box-a {
+.top-box-a:hover {
     grid-area: top-box-a;
+    background: url(../images/linkedin.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.top-box-b {
+.top-box-b:hover {
     grid-area: top-box-b;
+    background: url(../images/GitHub.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
 }
